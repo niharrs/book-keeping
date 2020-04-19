@@ -1,7 +1,7 @@
 {% extends "base" %}
 
 {% block content %}
-<h1>This is our example blog application</h1>
+<h1>Let's get started!</h1>
 <p>
     Let's explore what we can do with
     <a href="https://rocket.rs">Rocket</a> and
