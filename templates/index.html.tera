@@ -1,10 +1,39 @@
 {% extends "base" %}
 
 {% block content %}
-<h1>Let's get started!</h1>
-<p>
-    Let's explore what we can do with
-    <a href="https://rocket.rs">Rocket</a> and
-    <a href="https://www.rust-lang.org">Rust</a>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home 🏡 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">New Entry ➕ </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">View Entries 👀 </a>
+        </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search this entry" aria-label="Search">
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<h1 class="display-1" style="text-align:center">Reflect</h1>
+
+<p class="lead" style="text-align:center">
+  Use this platform to keep a track of just about anything!
 </p>
+
+<footer class="page-footer font-small unique-color-dark pt-4">
+  <div class="footer-copyright text-center py-3">
+    No Copyrights. Get inspired.
+  </div>
+</footer>
 {% endblock content %}
